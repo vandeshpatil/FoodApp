@@ -52,6 +52,7 @@ public class MainController {
 	    public List getAllPersons() {
 	        try {
 	            return personDao.getAllPersons();
+	            
 	        } catch (Exception ex) {
 	            return null;
 	        }
