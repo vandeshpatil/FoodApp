@@ -30,6 +30,7 @@ public class MainController {
 	            personDao.delete(person);
 	        } catch (Exception ex) {
 	            return ex.getMessage();
+	            
 	        }
 	        return "Person succesfully deleted!";
 	    }
